@@ -7,5 +7,5 @@ torchvision>=0.15.0
 torchaudio>=2.2.0
 transformers==4.30.0
 faiss-cpu>=1.10.0
-sentence-transformers @ git+https://github.com/UKPLab/sentence-transformers.git@v2.2.2
-tokenizers @ git+https://github.com/huggingface/tokenizers.git@v0.13.3
+sentence-transformers==2.2.2
+tokenizers==0.13.3+cu117
