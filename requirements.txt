@@ -1,3 +1,11 @@
+# ติดตั้ง Rust ก่อน (ใช้ Rustup ซึ่งเป็นตัวจัดการ Rust)
+!curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+!source $HOME/.cargo/env
+
+# อัปเดต pip และ setuptools
+pip install --upgrade pip setuptools wheel
+
+# ติดตั้งแพ็กเกจที่ต้องการ
 streamlit>=1.44.0
 pandas>=2.2.0
 numpy>=2.0.0
