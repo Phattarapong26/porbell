@@ -1,7 +1,6 @@
 streamlit>=1.44.0
 pandas>=2.2.0
 numpy>=2.0.0
---find-links https://download.pytorch.org/whl/torch_stable.html
 torch>=2.2.0
 torchvision>=0.15.0
 torchaudio>=2.2.0
