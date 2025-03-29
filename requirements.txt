@@ -8,4 +8,4 @@ torchaudio>=2.2.0
 transformers==4.30.0
 faiss-cpu>=1.10.0
 sentence-transformers==2.2.2
-tokenizers==0.13.3+cu117
+tokenizers==0.13.3
